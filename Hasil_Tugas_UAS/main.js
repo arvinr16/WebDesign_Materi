@@ -31,3 +31,60 @@ function applyTheme(theme) {
     icon.classList.remove("rotate");
   }, 400);
 }
+
+
+// Logic for slider
+const slider = document.getElementById("slider");
+
+// Clone card
+const cards = [...slider.children];
+cards.forEach(card => slider.appendChild(card.cloneNode(true)));
+
+let isDragging = false;
+let startX = 0;
+let currentTranslate = 0;
+let prevTranslate = 0;
+
+const speed = 0.9; // kecepatan (pixel per frame)
+const cardWidth = 220 + 20;
+const totalWidth = cardWidth * cards.length;
+
+let animationId;
+
+// Logic supaya animasi tetap continue
+function animate() {
+  currentTranslate -= speed;
+
+  // reset posisi invisible
+  if (Math.abs(currentTranslate) >= totalWidth) {
+    currentTranslate = 0;
+  }
+
+  slider.style.transform = `translateX(${currentTranslate}px)`;
+  animationId = requestAnimationFrame(animate);
+}
+
+// Logic supaya bisa di drag
+slider.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.clientX;
+  prevTranslate = currentTranslate;
+  cancelAnimationFrame(animationId);
+  slider.style.cursor = "grabbing";
+});
+
+window.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+  const diff = e.clientX - startX;
+  currentTranslate = prevTranslate + diff;
+  slider.style.transform = `translateX(${currentTranslate}px)`;
+});
+
+window.addEventListener("mouseup", () => {
+  if (!isDragging) return;
+  isDragging = false;
+  slider.style.cursor = "grab";
+  requestAnimationFrame(animate);
+});
+
+requestAnimationFrame(animate);
