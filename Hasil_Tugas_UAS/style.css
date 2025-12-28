@@ -146,6 +146,28 @@ section {
 }
 /* Styling for Course Section Start */
 
+/* Styling for Lecturer Section Start */
+.img-lecturer {
+  width: 240px;
+  object-fit: cover;
+}
+
+.card-lecturer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h4-lecturer {
+  font-weight: 600;
+}
+
+.social-icon img {
+  width: 20px;
+}
+
 /* Styling for Navigation */
 @keyframes bounce {
   0%,
