@@ -147,6 +147,10 @@ section {
 /* Styling for Course Section Start */
 
 /* Styling for Lecturer Section Start */
+section#lecturer {
+  margin-bottom: 96px;
+}
+
 .img-lecturer {
   width: 240px;
   object-fit: cover;
@@ -167,6 +171,7 @@ section {
 .social-icon img {
   width: 20px;
 }
+/* Styling for Lecturer Section End */
 
 /* Styling for Navigation */
 @keyframes bounce {
