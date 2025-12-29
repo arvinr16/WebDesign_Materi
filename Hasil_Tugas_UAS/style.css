@@ -173,6 +173,24 @@ section#lecturer {
 }
 /* Styling for Lecturer Section End */
 
+/* Styling for Footer Section Start */
+.footer-img {
+  width: 80px;
+}
+
+.address ul {
+  list-style: decimal;
+}
+
+.address ul a {
+  text-decoration: none;
+}
+
+.social-icon-footer img {
+  width: 30px;
+}
+/* Styling for Footer Section End */
+
 /* Styling for Navigation */
 @keyframes bounce {
   0%,
