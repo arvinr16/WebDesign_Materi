@@ -66,6 +66,24 @@ section#course::before {
   z-index: -1;
 }
 
+/* 3. Lecturer Section */
+section#lecturer {
+  padding-top: 120px;
+}
+
+section#lecturer::before {
+  content: "Our Lecturer";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
 .navigation {
   display: flex;
   justify-content: center;
