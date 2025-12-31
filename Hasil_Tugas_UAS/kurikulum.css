@@ -1,0 +1,33 @@
+.title-section {
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kurikulum-detail {
+  display: none;
+}
+
+.btn-toggle {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: white;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  border: 3px solid #83b0ea;
+  border-radius: 50px;
+  background-clip: border-box;
+  -webkit-text-fill-color: white;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-toggle:hover {
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid #98bded;
+  box-shadow: 0px 3px 13px #7b559a;
+}
