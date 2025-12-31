@@ -18,7 +18,7 @@ section#about {
 }
 
 section#about::before {
-  content: "Our Excellence";
+  content: "Keunggulan Kami";
   font-size: 48px;
   font-weight: 600;
   top: 10px;
@@ -36,7 +36,7 @@ section#vision {
 }
 
 section#vision::before {
-  content: "Our Vision and Mission";
+  content: "Visi dan Misi";
   font-size: 48px;
   font-weight: 600;
   top: 10px;
@@ -54,7 +54,7 @@ section#course {
 }
 
 section#course::before {
-  content: "Our Courses";
+  content: "Mata Kuliah";
   font-size: 48px;
   font-weight: 600;
   top: 10px;
@@ -72,7 +72,7 @@ section#lecturer {
 }
 
 section#lecturer::before {
-  content: "Our Lecturer";
+  content: "Dosen Kami";
   font-size: 48px;
   font-weight: 600;
   top: 10px;
