@@ -22,6 +22,7 @@
 
     <!-- Link untuk CSS Lokal -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="kurikulum.css" />
   </head>
   <body>
     <!-- Navbar Section Start -->
@@ -94,7 +95,7 @@
       <div class="container">
         <div class="row g-4 justify-content-center">
           <div class="col-md-6">
-            <h1>Kurikulum Program Studi</h1>
+            <h1 class="title-section">Kurikulum Program Studi</h1>
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -143,7 +144,7 @@
             </table>
           </div>
           <div class="col-md-6">
-            <h1>Program Studi Praktikum</h1>
+            <h1 class="title-section">Program Studi Praktikum</h1>
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -177,8 +178,56 @@
           </div>
         </div>
       </div>
+      <a href="#deskripsi" class="navigation"
+        ><img class="bounce" src="images/arrowDown_blue_2.png" alt="arrowDown"
+      /></a>
     </section>
     <!-- Main Section End -->
+
+    <!-- Deskripsi Section Start -->
+    <section id="deskripsi">
+      <div class="container">
+        <h1 class="title-section pb-2">
+          Deskripsi Kurikulum Prodi Sistem Informasi
+        </h1>
+        <div class="row justify-content-center">
+          <div class="card p-3 col-md-8 shadow">
+            <p class="kurikulum-intro">
+              Kurikulum Program Studi Sistem Informasi disusun berdasarkan
+              pendekatan
+              <strong>Outcome-Based Education (OBE)</strong> yang mengacu pada
+              Standar Nasional Pendidikan Tinggi (SN-Dikti) serta Kerangka
+              Kualifikasi Nasional Indonesia (KKNI).
+            </p>
+            <div class="kurikulum-detail" id="kurikulumDetail">
+              <p>
+                Kurikulum ini dirancang untuk menghasilkan lulusan yang memiliki
+                kompetensi akademik, keterampilan profesional, serta sikap dan
+                etika yang sesuai dengan kebutuhan bidang teknologi informasi.
+              </p>
+              <p>
+                Struktur kurikulum disusun untuk masa studi delapan semester
+                dengan beban studi sekitar 144 SKS, yang mencakup mata kuliah
+                wajib universitas, mata kuliah wajib program studi, serta mata
+                kuliah pilihan.
+              </p>
+              <p>
+                Selain itu, kurikulum ini mendukung implementasi kebijakan
+                <em>Merdeka Belajar – Kampus Merdeka (MBKM)</em> yang memberikan
+                kesempatan kepada mahasiswa untuk memperoleh pengalaman belajar
+                di luar program studi.
+              </p>
+            </div>
+            <div class="row justify-content-center">
+              <button class="btn-toggle" onclick="toggleKurikulum()">
+                Selengkapnya...
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Deskripsi Section End -->
 
     <!-- Footer Section Start -->
     <footer class="bg-dark-subtle py-5">
@@ -315,5 +364,6 @@
     ></script>
     <!-- Link untuk JS Lokal -->
     <script src="main.js"></script>
+    <script src="kurikulum.js"></script>
   </body>
 </html>
