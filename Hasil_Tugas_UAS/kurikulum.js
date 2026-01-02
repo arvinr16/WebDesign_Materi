@@ -1,3 +1,4 @@
+// Logika untuk tombol 'Selengkapnya'
 function toggleKurikulum() {
     const detail = document.getElementById("kurikulumDetail");
     const button = document.querySelector(".btn-toggle");
