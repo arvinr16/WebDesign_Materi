@@ -199,7 +199,7 @@
               Standar Nasional Pendidikan Tinggi (SN-Dikti) serta Kerangka
               Kualifikasi Nasional Indonesia (KKNI).
             </p>
-            <div class="kurikulum-detail" id="kurikulumDetail">
+            <div class="collapse" id="collapseExample">
               <p>
                 Kurikulum ini dirancang untuk menghasilkan lulusan yang memiliki
                 kompetensi akademik, keterampilan profesional, serta sikap dan
@@ -219,7 +219,15 @@
               </p>
             </div>
             <div class="row justify-content-center">
-              <button class="btn-toggle" onclick="toggleKurikulum()">
+              <button
+                id="btnCollapse"
+                class="btn-toggle"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
                 Selengkapnya...
               </button>
             </div>
@@ -231,9 +239,7 @@
 
     <!-- Capaian Section Start -->
     <section id="capaian">
-      <div class="container">
-        
-      </div>
+      <div class="container"></div>
     </section>
 
     <!-- Footer Section Start -->
