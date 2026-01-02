@@ -1,13 +1,11 @@
 // Logika untuk tombol 'Selengkapnya'
-function toggleKurikulum() {
-    const detail = document.getElementById("kurikulumDetail");
-    const button = document.querySelector(".btn-toggle");
+const collapseExample = document.getElementById("collapseExample");
+const button = document.getElementById("btnCollapse");
 
-    if(detail.style.display === "none" || detail.style.display === "") {
-        detail.style.display = "block";
-        button.textContent = "Tutup?";
-    } else {
-        detail.style.display = "none";
-        button.textContent = "Selengkapnya...";
-    }
-}
+collapseExample.addEventListener("shown.bs.collapse", function () {
+    button.textContent = "Tutup?";
+});
+
+collapseExample.addEventListener("hidden.bs.collapse", function () {
+    button.textContent = "Selengkapnya...";
+});
