@@ -11,6 +11,12 @@ section {
   position: relative;
 }
 
+.title-section {
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Styling Section for index.html */
 /* 1. About Section */
 section#about {
