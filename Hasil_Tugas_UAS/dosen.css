@@ -1,0 +1,44 @@
+/* 4. Lecturer Section */
+section#lecturer {
+  padding-top: 120px;
+}
+
+section#lecturer::before {
+  content: "Dosen Kami";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Styling for Lecturer Section Start */
+section#lecturer {
+  margin-bottom: 96px;
+}
+
+.img-lecturer {
+  width: 240px;
+  object-fit: cover;
+}
+
+.card-lecturer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h4-lecturer {
+  font-weight: 600;
+}
+
+.social-icon img {
+  width: 20px;
+}
+/* Styling for Lecturer Section End */
