@@ -243,12 +243,6 @@ section#news::before {
   background: rgba(255, 255, 255, 0.094);
   border-radius: 20px;
   border: 1px solid #c7c7c754;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.card-news:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
 }
 
 .card-news a  {
