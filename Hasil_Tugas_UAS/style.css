@@ -72,6 +72,24 @@ section#course::before {
   z-index: -1;
 }
 
+/* 4. News Section */
+section#news {
+  padding-top: 120px;
+}
+
+section#news::before {
+  content: "Pemberitahuan";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
 .navigation {
   display: flex;
   justify-content: center;
@@ -184,7 +202,7 @@ section#course::before {
 
 .about-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 18px 32px rgba(0,0,0,0.12);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
 }
 
 .img-about {
@@ -220,6 +238,53 @@ section#course::before {
 }
 /* Styling for Course Section Start */
 
+/* Styling for News Section Start */
+.card-news {
+  background: rgba(255, 255, 255, 0.094);
+  border-radius: 20px;
+  border: 1px solid #c7c7c754;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-news:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
+}
+
+.card-news a  {
+  text-decoration: none;
+}
+
+.form-news input {
+  border-radius: 15px;
+}
+
+.button-search {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 5px;
+  color: white;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  border: 3px solid #83b0ea;
+  border-radius: 15px;
+  background-clip: border-box;
+  -webkit-text-fill-color: white;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-search:hover {
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid #98bded;
+  box-shadow: 0px 3px 13px #7b559a;
+}
+
+.search {
+  width: 30px;
+}
 
 /* Styling for Footer Section Start */
 .footer-img {
