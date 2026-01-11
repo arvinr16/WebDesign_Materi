@@ -245,10 +245,6 @@ section#news::before {
   border: 1px solid #c7c7c754;
 }
 
-.card-news a  {
-  text-decoration: none;
-}
-
 .form-news input {
   border-radius: 15px;
 }
