@@ -46,6 +46,11 @@ section#kinerja::before {
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-lecturer:hover {
+  transform: perspective(1000px) rotateX(4deg) rotateY(-4deg);
 }
 
 .h4-lecturer {
@@ -64,4 +69,10 @@ section#kinerja::before {
   border: 1px solid #c7c7c754;
   width: 500px;
 }
+
+.card-kinerja:hover {
+  transform: rotateY(8deg) rotateX(8deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 /* Styling for Kinerja Section End */
+
