@@ -1,4 +1,4 @@
-/* 4. Lecturer Section */
+/* 1. Lecturer Section */
 section#lecturer {
   padding-top: 120px;
 }
@@ -16,11 +16,25 @@ section#lecturer::before {
   z-index: -1;
 }
 
-/* Styling for Lecturer Section Start */
-section#lecturer {
-  margin-bottom: 96px;
+/* 2. Kinerja Section */
+section#kinerja {
+  padding-top: 120px;
 }
 
+section#kinerja::before {
+  content: "Kinerja Dosen";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Styling for Lecturer Section Start */
 .img-lecturer {
   width: 240px;
   object-fit: cover;
@@ -42,3 +56,12 @@ section#lecturer {
   width: 20px;
 }
 /* Styling for Lecturer Section End */
+
+/* Styling for Kinerja Section Start */
+.card-kinerja {
+  background: rgba(255, 255, 255, 0.094);
+  border-radius: 20px;
+  border: 1px solid #c7c7c754;
+  width: 500px;
+}
+/* Styling for Kinerja Section End */
