@@ -162,6 +162,7 @@ section#news::before {
 }
 
 .img-landing {
+  padding: 0;
   width: 500px;
   height: 320px;
   object-fit: cover;
@@ -172,7 +173,7 @@ section#news::before {
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 16px 30px;
   color: white;
   background: linear-gradient(16deg, #6199e2, #933dcd);
   border: 3px solid #83b0ea;
