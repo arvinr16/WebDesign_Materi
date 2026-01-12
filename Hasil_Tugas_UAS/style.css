@@ -283,12 +283,12 @@ section#news::before {
   border-radius: 20px;
   border: 1px solid #c7c7c754;
   padding: 0;
-  width: 500px;
+  width: 400px;
 }
 
 .nav-page {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   padding: 10px 10px;
   color: white;
