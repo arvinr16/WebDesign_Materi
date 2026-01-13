@@ -112,3 +112,15 @@ section#sdm::before {
   box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
 }
 /* Styling for SDM Section End */
+
+@media only screen and (max-width: 470px) {
+  section#lecturer::before {
+    font-size: 38px;
+  }
+  section#kinerja::before {
+    font-size: 32px;
+  }
+  section#sdm::before {
+    font-size: 32px;
+  }
+}
