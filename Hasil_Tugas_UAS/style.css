@@ -17,6 +17,10 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
+.text-nav {
+  font-size: 24px;
+}
+
 /* Styling Section for index.html */
 /* 1. About Section */
 section#about {
@@ -354,4 +358,32 @@ section#news::before {
 
 .bounce {
   animation: bounce 1s infinite;
+}
+
+@media only screen and (max-width: 500px) {
+  section#about::before {
+    font-size: 34px;
+  }
+
+  section#vision::before {
+    font-size: 38px;
+  }
+
+  section#course::before {
+    font-size: 38px;
+  }
+
+  section#news::before {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+    .text-nav {
+      font-size: 16px;
+    }
+  
+  .nav-img-logo {
+    width: 50px;
+  }
 }
