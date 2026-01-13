@@ -170,6 +170,7 @@ section#news::before {
 }
 
 .btn-landing {
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -181,7 +182,7 @@ section#news::before {
   background-clip: border-box;
   -webkit-text-fill-color: white;
   transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
-    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .btn-landing:hover {
@@ -190,6 +191,7 @@ section#news::before {
   -webkit-text-fill-color: transparent;
   border: 3px solid #98bded;
   box-shadow: 0px 3px 13px #7b559a;
+  transform: scale(0.93);
 }
 /* Styling for Landing Section End */
 
@@ -251,6 +253,7 @@ section#news::before {
 }
 
 .button-search {
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -262,7 +265,7 @@ section#news::before {
   background-clip: border-box;
   -webkit-text-fill-color: white;
   transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
-    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .button-search:hover {
@@ -271,6 +274,7 @@ section#news::before {
   -webkit-text-fill-color: transparent;
   border: 3px solid #98bded;
   box-shadow: 0px 3px 13px #7b559a;
+  transform: scale(0.93);
 }
 
 .search {
@@ -288,6 +292,7 @@ section#news::before {
 }
 
 .nav-page {
+  display: inline-block;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -299,7 +304,7 @@ section#news::before {
   background-clip: border-box;
   -webkit-text-fill-color: white;
   transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
-    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease;
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .nav-page:hover {
@@ -308,6 +313,7 @@ section#news::before {
   -webkit-text-fill-color: transparent;
   border: 3px solid #98bded;
   box-shadow: 0px 3px 13px #7b559a;
+  transform: scale(0.93);
 }
 
 .card-nav-body {
