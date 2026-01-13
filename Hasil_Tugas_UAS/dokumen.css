@@ -1,4 +1,21 @@
 /* Styling for Kategori Dokumen Section Start */
+section#kategori-dokumen {
+  padding-top: 120px;
+}
+
+section#kategori-dokumen::before {
+  content: "Kategori Dokumen";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
 .card-kategori {
   background: rgba(255, 255, 255, 0.094);
   border-radius: 20px;
@@ -7,3 +24,78 @@
   padding: 0;
 }
 /* Styling for Kategori Dokumen Section End */
+
+/* Styling for Pencarian Dokumen Section Start */
+section#pencarian-dokumen {
+  padding-top: 120px;
+}
+
+section#pencarian-dokumen::before {
+  content: "Pencarian Dokumen";
+  font-size: 48px;
+  font-weight: 600;
+  top: 10px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+}
+
+.card-pencarian {
+  background: rgba(255, 255, 255, 0.094);
+  border-radius: 20px;
+  border: 1px solid #c7c7c754;
+  padding: 0;
+  width: 900px;
+}
+
+.search-dokumen {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 7px;
+  color: white;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  border: 3px solid #83b0ea;
+  border-radius: 15px;
+  background-clip: border-box;
+  -webkit-text-fill-color: white;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease,
+    -webkit-text-fill-color 0.5s ease, text 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.search-dokumen:hover {
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid #98bded;
+  box-shadow: 0px 3px 13px #7b559a;
+  transform: scale(0.93);
+}
+
+.search-dokumen-img {
+    width: 30px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #676767;
+}
+
+.input-dokumen {
+  padding: 2px;
+  border-radius: 20px;
+  background: linear-gradient(16deg, #6199e2, #933dcd);
+}
+
+.input-dokumen input {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+/* Styling for Pencarian Dokumen Section Start */
