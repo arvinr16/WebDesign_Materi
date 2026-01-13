@@ -1,0 +1,9 @@
+/* Styling for Kategori Dokumen Section Start */
+.card-kategori {
+  background: rgba(255, 255, 255, 0.094);
+  border-radius: 20px;
+  border: 1px solid #c7c7c754;
+  width: 500px;
+  padding: 0;
+}
+/* Styling for Kategori Dokumen Section End */
