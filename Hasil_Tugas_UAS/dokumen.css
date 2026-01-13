@@ -99,3 +99,12 @@ select {
   outline: none;
 }
 /* Styling for Pencarian Dokumen Section Start */
+
+@media only screen and (max-width: 570px) {
+  section#kategori-dokumen::before {
+    font-size: 32px;
+  }
+  section#pencarian-dokumen::before {
+    font-size: 32px;
+  }
+}
