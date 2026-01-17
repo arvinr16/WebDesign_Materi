@@ -80,6 +80,7 @@ section#pencarian-dokumen::before {
 }
 
 select {
+  width: 100%;
   padding: 10px;
   border-radius: 20px;
   border: 1px solid #676767;
