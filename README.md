@@ -7,6 +7,8 @@ Terimakasih pak Albert @albertchandra18 yang sudah memberikan pelajaran yang ama
 # Project Creation Process Date
 ## 1. Project UAS Process:
 25-12-2025 (10:00-WIB) - 13-01-2026 (22:14-WIB)
+# Results
+Bukan mau sombong atau pamer saya hanya ingin mendokumentasikan hasil pelajaran yang sudah saya pelajari di semester 3 ini, Alhamdulillah di pelajaran Web Design Materi kali ini saya mendapatkan nilai 98. Ini masih permulaan jadi jangan cepat puas atau lengah, tetap bersyukur dan improve lagi!
 # License:
 Released under MTI License 
 
