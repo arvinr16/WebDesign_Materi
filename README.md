@@ -10,7 +10,7 @@ Terimakasih pak Albert @albertchandra18 yang sudah memberikan pelajaran yang ama
 ## 2. Results
 Bukan mau sombong atau pamer saya hanya ingin mendokumentasikan hasil pelajaran yang sudah saya pelajari di semester 3 ini, Alhamdulillah di pelajaran Web Design Materi kali ini saya mendapatkan nilai 98. Ini masih permulaan jadi jangan cepat puas atau lengah, tetap bersyukur dan improve lagi!
 # License:
-Released under MTI License 
+Released under MIT License 
 
 ©2025 ArviNR, arviansyahyk@gmail.com
 
