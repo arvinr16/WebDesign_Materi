@@ -41,13 +41,15 @@ section#kinerja::before {
 }
 
 .card-lecturer {
+  margin: 0;
+  padding-bottom: 20px;
   background: rgba(255, 255, 255, 0.094);
   border-radius: 20px;
   border: 1px solid #c7c7c754;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-end;
   text-align: center;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
